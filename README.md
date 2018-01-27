@@ -63,6 +63,9 @@
 - lightgrey
 - blue
 
+# ライセンス/License
+MIT
+
 # 寄付/Donation
 - _BitZeny_
     `ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb`
