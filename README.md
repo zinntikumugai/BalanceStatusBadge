@@ -8,7 +8,7 @@
 [BSB-ZNY-TOTALRECEIVED]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/totalReceived/totalReceived
 [BSB-ZNY-TOTALSENT]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/totalSent/totalSent
 [BSB-ZNY-TRANSACTION]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/transaction/transaction
-[BSB-MONA-BALANCE]:  http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=mona/MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe/v0/yellowgreen/balance/balance
+[BSB-MONA-BALANCE]:  http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=mona/MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe/v1/yellowgreen/balance/balance
 [BSB-KUMA-BALANCE]:  http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=kuma/KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc/v1/b8860b/balance/balance
 [BSB-ZNY-LINK]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?url=bitzeny:ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb
 [BSB-MONA-LINK]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?url=monacoin:MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe
