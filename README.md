@@ -48,7 +48,7 @@
 |-----|------|----|-----|
 | ✔ | BitZeny | zeny | [MultiLightBlockExplorer][API-MLBE] |
 | ✔ | KumaCoin | kuma | [MultiLightBlockExplorer][API-MLBE] |
-| ❕ | MonaCoin | mona | [MultiLightBlockExplorer][API-MLBE] |
+| ✔ | MonaCoin | mona | [MultiLightBlockExplorer][API-MLBE] |
 | ❕ | SHA1coin | sha1 | [MultiLightBlockExplorer][API-MLBE] |
 | ❕ | Sayacoin | saya | [MultiLightBlockExplorer][API-MLBE] |
 | ❕ | Espar2 | esp2 | [MultiLightBlockExplorer][API-MLBE] |
