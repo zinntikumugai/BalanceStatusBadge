@@ -1,8 +1,29 @@
 # BalanceStatusBadge
-[![GitHub license](https://img.shields.io/github/license/zinntikumugai/BalanceStatusBadge.svg)](https://github.com/zinntikumugai/BalanceStatusBadge/blob/master/LICENSE)
-[![GitHub top language](https://img.shields.io/github/languages/top/zinntikumugai/BalanceStatusBadge.svg)](https://github.com/zinntikumugai/BalanceStatusBadge)
+[SHIELDS-GITHUB-LICENS]: https://img.shields.io/github/license/zinntikumugai/BalanceStatusBadge.svg
+[SHIELDS-GITHUB-LANGUAGE]: https://img.shields.io/github/languages/top/zinntikumugai/BalanceStatusBadge.svg
+[WEBSITE-STATUS-BSBZINNTIKUMUGAI]: https://img.shields.io/website-up-down-green-red/http/bsb.bitzeny.zinntikumugai.xyz.svg?label=status
+[BSB-ZNY-BALANCE]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/balance/balance
+[BSB-ZNY-ADDRESS]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/address/address
+[BSB-ZNY-NOP]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue//nop
+[BSB-ZNY-TOTALRECEIVED]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/totalReceived/totalReceived
+[BSB-ZNY-TOTALSENT]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/totalSent/totalSent
+[BSB-ZNY-TRANSACTION]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=zeny/ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb/v1/blue/transaction/transaction
+[BSB-MONA-BALANCE]:  http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=mona/MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe/v0/yellowgreen/balance/balance
+[BSB-KUMA-BALANCE]:  http://bsb.bitzeny.zinntikumugai.xyz/API.php?data=kuma/KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc/v1/b8860b/balance/balance
+[BSB-ZNY-LINK]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?url=bitzeny:ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb
+[BSB-MONA-LINK]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?url=monacoin:MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe
+[BSB-KUMA-LINK]: http://bsb.bitzeny.zinntikumugai.xyz/API.php?url=kumacoin:KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc
+[API-MLBE]: http://namuyan.dip.jp/MultiLightBlockExplorer/
+<!-- end of link references field -->
 
-特定のアドレスの残高などを表示できるバッジです
+![SHIELDS-GITHUB-LICENS]
+![SHIELDS-GITHUB-LANGUAGE]
+
+![BSB-ZNY-BALANCE]
+![BSB-MONA-BALANCE]
+![BSB-KUMA-BALANCE]
+
+暗号通貨の**アドレスの残高**などを表示できるバッジです  
 
 # 何ができるの？
 - 暗号通貨のアドレスから残高など求められます
@@ -12,7 +33,7 @@
     - 出金額
     - トランザクション数
 - (一部)ロゴを含めることができます
-- (おまけ)MarkDownなどでアドレスリンク使えるようにします
+- (おまけ)MarkDownなどでアドレスリンク使えるようにします(かなり強引ですが)
 
 # 対応状況
 | アイコン | 意味 |
@@ -22,36 +43,53 @@
 | ✋ | 今後対応予定 |
 | ✘ | 技術的に難しいです |
 
-[MLBE]: http://namuyan.dip.jp/MultiLightBlockExplorer/
 
 | 状況 | 通貨 | 値 | API |
 |-----|------|----|-----|
-| ✔ | BitZeny | zeny | [MultiLightBlockExplorer][MLBE] |
-| ✔ | MonaCoin | mona | [MultiLightBlockExplorer][MLBE] |
-| ✔ | KumaCoin | kuma | [MultiLightBlockExplorer][MLBE] |
-| ❕ | SHA1coin | sha1 | [MultiLightBlockExplorer][MLBE] |
-| ❕ | Sayacoin | saya | [MultiLightBlockExplorer][MLBE] |
-| ❕ | Espar2 | esp2 | [MultiLightBlockExplorer][MLBE] |
-| ❕ | Ringo | ringo | [MultiLightBlockExplorer][MLBE] |
-| ❕ | Fujicoin | fuji | [MultiLightBlockExplorer][MLBE] |
+| ✔ | BitZeny | zeny | [MultiLightBlockExplorer][API-MLBE] |
+| ✔ | KumaCoin | kuma | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | MonaCoin | mona | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | SHA1coin | sha1 | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | Sayacoin | saya | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | Espar2 | esp2 | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | Ringo | ringo | [MultiLightBlockExplorer][API-MLBE] |
+| ❕ | Fujicoin | fuji | [MultiLightBlockExplorer][API-MLBE] |
 | ✋ | BitCoin | btc | - |
 | ✋ | NEM | xem | - |
 
 # 使い方
+# サーバー
+| hostname | status | Region |
+|----|----|-----|
+| bsb.bitzeny.zinntikumugai.xyz |  ![WEBSITE-STATUS-BSBZINNTIKUMUGAI] | 人畜無害 |
+
 ## アイコン作成
 ```
-?data=対応通貨/アドレス/アイコンバージョン(v0で非表示)/(右側の)色/[左側の内容]/[右側の表示内容]/[オプション]
+hostname/API.php?data=対応通貨/アドレス/アイコンバージョン(v0で非表示)/(右側の)色/[左側の内容]/[右側の表示内容]/[オプション]
 ```
 
 ## アドレスURL生成
 ```
-
+hostname/API.php?url=通貨:アドレス
+hostname/API.php?url=bitzeny:ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb
+hostname/API.php?url=monacoin:MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe
+hostname/API.php?url=kumacoin:KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc
 ```
+### パラメータ
 | パラメーター | 備考 | 例 |
 |---|---|---|
 | アイコンバージョン | v0で非表示 | v1 |
 | 左側の内容 | ただのテキスト | 寄付 |
 
+### 右側内容について
+| 右側に表示したいもの | 値 | オプション | 例 |
+|----|----|----|----|
+| (左側を非表示) | (何も入力しない) | 右側に表示したいもの | ![BSB-ZNY-NOP] |
+| アドレス | address | - | ![BSB-ZNY-ADDRESS] |
+| 残高 | balance | 小数点以下の桁数 | ![BSB-ZNY-BALANCE] |
+| 入金合計 | totalReceived | 小数点以下の桁数 | ![BSB-ZNY-TOTALRECEIVED] |
+| 出金合計 | totalSent | 小数点以下の桁数 | ![BSB-ZNY-TOTALSENT] |
+| トランザクション | transaction | 回数の単位 | ![BSB-ZNY-TRANSACTION] |
 ### 色
 以下のものまたはカラーコード
 - brightgreen
@@ -67,10 +105,16 @@
 MIT
 
 # 寄付/Donation
+
 - _BitZeny_
     `ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb`
+    [![BSB-ZNY-BALANCE]][BSB-ZNY-LINK]
 - _MonaCoin_
     `MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe`
+    [![BSB-MONA-BALANCE]][BSB-MONA-LINK]
+- _KumaCoin_
+    `KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc`
+    [![BSB-KUMA-BALANCE]][BSB-KUMA-LINK]
 - _BitCoin_
     `1BKp366eUeSmbNqvcZitY7sJrBsRBmNEbU`
 
