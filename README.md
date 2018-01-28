@@ -33,7 +33,7 @@
     - 出金額
     - トランザクション数
 - (一部)ロゴを含めることができます
-- (おまけ)MarkDownなどでアドレスリンク使えるようにします(かなり強引ですが)
+- (おまけ)MarkDownなどでURIリンクを使えるようにします(かなり強引ですが)
 
 # 対応状況
 | アイコン | 意味 |
@@ -58,7 +58,11 @@
 | ✋ | NEM | xem | - |
 
 # 使い方
-# サーバー
+[詳しくはExampleを参考してください](Example.md)
+
+## サーバー
+`hostname` の項目を以下のサーバーのいずれかに変更してください
+
 | hostname | status | Region |
 |----|----|-----|
 | bsb.bitzeny.zinntikumugai.xyz |  ![WEBSITE-STATUS-BSBZINNTIKUMUGAI] | 人畜無害 |
@@ -68,38 +72,13 @@
 hostname/API.php?data=対応通貨/アドレス/アイコンバージョン(v0で非表示)/(右側の)色/[左側の内容]/[右側の表示内容]/[オプション]
 ```
 
-## アドレスURL生成
+## URIアドレス生成
 ```
 hostname/API.php?url=通貨:アドレス
 hostname/API.php?url=bitzeny:ZjiBu815mTSv9LnWzHUn25ErkSS7kGRLyb
 hostname/API.php?url=monacoin:MAmh5GUAYDJkfUSDBsPuEXQwfgXFp4btTe
 hostname/API.php?url=kumacoin:KEK3zkYT1jkf2f8K9XE6SDpFoi8JJZgcPc
 ```
-### パラメータ
-| パラメーター | 備考 | 例 |
-|---|---|---|
-| アイコンバージョン | v0で非表示 | v1 |
-| 左側の内容 | ただのテキスト | 寄付 |
-
-### 右側内容について
-| 右側に表示したいもの | 値 | オプション | 例 |
-|----|----|----|----|
-| (左側を非表示) | (何も入力しない) | 右側に表示したいもの | ![BSB-ZNY-NOP] |
-| アドレス | address | - | ![BSB-ZNY-ADDRESS] |
-| 残高 | balance | 小数点以下の桁数 | ![BSB-ZNY-BALANCE] |
-| 入金合計 | totalReceived | 小数点以下の桁数 | ![BSB-ZNY-TOTALRECEIVED] |
-| 出金合計 | totalSent | 小数点以下の桁数 | ![BSB-ZNY-TOTALSENT] |
-| トランザクション | transaction | 回数の単位 | ![BSB-ZNY-TRANSACTION] |
-### 色
-以下のものまたはカラーコード
-- brightgreen
-- green
-- yellowgreen
-- yellow
-- orage
-- red
-- lightgrey
-- blue
 
 # ライセンス/License
 MIT
