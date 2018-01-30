@@ -98,7 +98,7 @@ EOF;
 
         if($res = $this->DB->query($SQL)){
             //var_dump($SQL,$res,$this->DB->insert_id);
-            echo "update".PHP_EOL;
+        //    echo "update".PHP_EOL;
         }
         $this->disconnect();
 
